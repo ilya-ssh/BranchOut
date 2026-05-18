@@ -1,17 +1,6 @@
 # Multi-agent System for Visual Novel Generation
 
-This repository contains the source code for the Master's thesis project:
-
 Multi-agent System for Visual Novel Generation  
-Russian title: "Мультиагентная система для генерации визуальных новелл"
-
-Institution:
-National Research University Higher School of Economics (HSE University)  
-Saint Petersburg School of Humanities and Arts
-
-Authors:
-Valerii V. Sukmaniuk  
-Ilia A. Shakhov
 
 
 ## If you want to see generation examples, check the `output/` directory; for a full playable novel, open the generated `.html` file in Chrome (located in the 'web' subfolder).
