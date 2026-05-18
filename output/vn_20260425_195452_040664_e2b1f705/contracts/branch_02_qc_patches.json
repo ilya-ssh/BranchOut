@@ -1,0 +1,23 @@
+{
+  "patches": [
+    {
+      "scene_id": "branch_02_scene_001",
+      "new_location": "Кабинет директора Валериуса",
+      "new_pov_character": null,
+      "new_present_characters": null,
+      "new_summary": "Отказавшись от идеи действовать в одиночку, Рэй направляется в кабинет директора Валериуса, чтобы запросить ресурсы. Вместо директора он застает там своего куратора, Сола Вэйна. Рэй излагает ему план по использованию информации о древнем символе как приманки для вампира",
+      "new_scene_goal": null,
+      "new_scene_conflict": null,
+      "new_stakes": null,
+      "new_reveal": null,
+      "new_emotional_beat": null,
+      "new_must_reference": null,
+      "new_entry_requirements": null,
+      "new_exit_targets": null,
+      "new_continuity_notes": null,
+      "new_thread_focus": null,
+      "reason": "Исходный JSON был синтаксически верным, но не соответствовал предоставленной схеме. Были добавлены недостающие поля со значением null.",
+      "confidence": 1.0
+    }
+  ]
+}

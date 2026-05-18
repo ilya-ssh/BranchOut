@@ -1,0 +1,301 @@
+[
+  {
+    "id": "scene_001",
+    "beat_id": "beat_01",
+    "location": "Технический отсек 'Эгиды'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй",
+      "Доктор Касс Арден"
+    ],
+    "summary": "Рэй проходит плановое техобслуживание своих имплантов. Доктор Касс Арден, техник, проводит диагностику и отмечает идеальное состояние систем, в то время как Рэй выражает непоколебимую веру в миссию 'Эгиды' по защите человечества.",
+    "scene_goal": "Успешно завершить техобслуживание и подтвердить свою готовность к службе.",
+    "scene_conflict": "Лёгкое беспокойство Рэя о том, что диагностика может выявить скрытую проблему, которая отстранит его от службы.",
+    "stakes": "Временное отстранение от активных операций, что для Рэя равносильно потере цели в жизни.",
+    "reveal": "Доктор Арден упоминает, что импланты Рэя — последняя модель с 'недокументированными' возможностями удаленного мониторинга, что подается как преимущество.",
+    "emotional_beat": "спокойная уверенность -> легкое любопытство",
+    "must_reference": [
+      "Корпорация 'Эгида'",
+      "Кибернетические импланты",
+      "Аномалии"
+    ],
+    "entry_requirements": [],
+    "exit_targets": [
+      "Рэй признан полностью боеспособным.",
+      "Установлено, что Доктор Арден — техник, обслуживающий Рэя."
+    ],
+    "continuity_notes": [
+      "Представить Доктора Ардена, который позже может стать источником информации (роль Дарителя).",
+      "Заложить основу для будущего недоверия к имплантам (упоминание удаленного мониторинга)."
+    ],
+    "thread_focus": [
+      "thread_02"
+    ],
+    "branch_id": "main",
+    "branch_order": 1
+  },
+  {
+    "id": "scene_002",
+    "beat_id": "beat_02",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Каэла вызывает его командир, директор Валериус. Он сообщает о появлении особо опасной аномалии — вампира-аристократа, замеченного в неоновом районе 'Нижний Гелиос'. Валериус приказывает ликвидировать цель любой ценой, подчеркивая, что эта особь — ключ к недавней серии исчезновений людей.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 2
+  },
+  {
+    "id": "scene_003",
+    "beat_id": "beat_03",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Каэл и его отряд едут в 'Нижний Гелиос'. В бронетранспортере они обсуждают детали миссии. Один из бойцов, новичок, выражает страх, но Каэл успокаивает его, повторяя корпоративную мантру о превосходстве технологии над суевериями.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 3
+  },
+  {
+    "id": "scene_004",
+    "beat_id": "beat_04",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Отряд прочесывает залитые дождем и неоном улицы. Используя сканеры, они выслеживают цель в заброшенном готическом театре, который выглядит чужеродно среди небоскребов.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 4
+  },
+  {
+    "id": "scene_005",
+    "beat_id": "beat_05",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Внутри театра Каэл сталкивается с вампиром — Эларой. Она не дикий монстр, а грациозная и умная противница. В ходе боя она не столько пытается убить Каэла, сколько изучает его, комментируя предсказуемость его 'железных' движений.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 5
+  },
+  {
+    "id": "scene_006",
+    "beat_id": "beat_06",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "В критический момент боя кибернетическая рука Каэла дает сбой, парализуя его на несколько секунд. Элара использует этот момент, чтобы ранить новичка из отряда и скрыться, прошептав Каэлу: 'Они лгут тебе, железный человек. Твои цепи крепче моих'.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 6
+  },
+  {
+    "id": "scene_007",
+    "beat_id": "beat_07",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Каэл возвращается с проваленной миссией и раненым бойцом. Валериус устраивает ему жесткий выговор, но списывает сбой импланта на 'боевые повреждения'. Каэл чувствует, что от него что-то скрывают.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 7
+  },
+  {
+    "id": "scene_008",
+    "beat_id": "beat_08",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "В своей квартире Каэл анализирует запись боя. Он замечает, что сбой произошел не из-за повреждения, а по команде извне. Слова Элары эхом звучат в его голове. Он решает провести собственное, неофициальное расследование.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 8
+  },
+  {
+    "id": "scene_009",
+    "beat_id": "beat_09",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Каэл проникает в технический архив 'Эгиды', чтобы изучить логи своих имплантов. Он обнаруживает зашифрованные протоколы, которые не может взломать. Система помечает его запрос как подозрительный.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 9
+  },
+  {
+    "id": "scene_010",
+    "beat_id": "beat_10",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "В зашифрованных данных Каэл находит странный символ, который видел в театре, где сражался с Эларой. Он понимает, что только она может помочь ему расшифровать данные.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 10
+  },
+  {
+    "id": "scene_011",
+    "beat_id": "beat_11",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Каэл решает найти Элару. Он отправляется в 'Серые Зоны' — районы города, не контролируемые корпорациями, где по слухам обитают магические существа. Он идет один, без поддержки отряда.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 11
+  },
+  {
+    "id": "scene_012",
+    "beat_id": "beat_12",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "В 'Серых Зонах' Каэла находит не он, а его. Посланник Элары, дух-фамильяр, передает ему приглашение на встречу, предупреждая, что это ловушка, если он придет с оружием или дурными намерениями.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 12
+  },
+  {
+    "id": "scene_013",
+    "beat_id": "beat_13",
+    "location": "Штаб-квартира корпорации 'Эгида'",
+    "pov_character": "Рэй",
+    "present_characters": [
+      "Рэй"
+    ],
+    "summary": "Каэл прибывает в убежище Элары — старинную библиотеку, скрытую под землей. Элара встречает его без враждебности, но с явным недоверием. Она видит в нем лишь сломанную марионетку корпорации.",
+    "scene_goal": "",
+    "scene_conflict": "",
+    "stakes": "",
+    "reveal": "",
+    "emotional_beat": "",
+    "must_reference": [],
+    "entry_requirements": [],
+    "exit_targets": [],
+    "continuity_notes": [],
+    "thread_focus": [],
+    "branch_id": "main",
+    "branch_order": 13
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "applied": [
+    {
+      "scene_id": "branch_03_scene_001"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "branch_03_scene_001",
+      "beat_id": "beat_07",
+      "location": "Неоновые улицы района 'Нижний Гелиос'",
+      "pov_character": "Рэй",
+      "present_characters": [
+        "Рэй",
+        "Элиас Грей"
+      ],
+      "summary": "Сразу после неподчинения приказу, Рэй тащит тяжело раненого Элиаса Грея по грязным переулкам Нижнего Гелиоса. Он отчаянно ищет подпольную клинику риппердока, о которой слышал слухи, пока Элиас истекает кровью",
+      "scene_goal": "Найти подпольного риппердока, чтобы спасти жизнь раненого Элиаса Грея.",
+      "scene_conflict": "Рэй должен быстро перемещаться по опасным улицам с тяжело раненым товарищем, борясь со временем и риском быть обнаруженным патрулями 'Эгиды'.",
+      "stakes": "Жизнь Элиаса Грея. Если Рэй не успеет найти помощь, Элиас умрет.",
+      "reveal": "Рэй узнает о существовании подпольного риппердока по имени 'Хирург', известного своей жестокостью, но и эффективностью.",
+      "emotional_beat": "Отчаяние, смешанное с решимостью. Рэй чувствует тяжесть ответственности за жизнь друга.",
+      "must_reference": [
+        "Тяжелое ранение Элиаса",
+        "Опасность патрулей 'Эгиды'"
+      ],
+      "entry_requirements": [
+        "Элиас ранен в предыдущей сцене",
+        "Игроку известно, что обычные больницы недоступны или слишком опасны"
+      ],
+      "exit_targets": [
+        "branch_03_scene_002"
+      ],
+      "continuity_notes": [
+        "Состояние Элиаса должно ухудшаться, чтобы подчеркнуть срочность."
+      ],
+      "thread_focus": [
+        "thread_01"
+      ],
+      "branch_id": "branch_03",
+      "branch_order": 1
+    },
+    {
+      "id": "branch_03_scene_002",
+      "beat_id": "beat_08",
+      "location": "Неоновые улицы района 'Нижний Гелиос'",
+      "pov_character": "Рэй",
+      "present_characters": [
+        "Рэй"
+      ],
+      "summary": "Операция завершена, новичок стабилизирован, но в коме. Риппердок, видя состояние имплантов Каэла, советует ему держаться подальше от корпоративных сетей. Слова Элары о 'поводке' обретают зловещий смысл. Каэл понимает, что единственный, кто может объяснить произошедшее — это она.",
+      "scene_goal": "",
+      "scene_conflict": "",
+      "stakes": "",
+      "reveal": "",
+      "emotional_beat": "",
+      "must_reference": [],
+      "entry_requirements": [],
+      "exit_targets": [],
+      "continuity_notes": [],
+      "thread_focus": [],
+      "branch_id": "branch_03",
+      "branch_order": 2
+    },
+    {
+      "id": "branch_03_scene_003",
+      "beat_id": "beat_09",
+      "location": "Штаб-квартира корпорации 'Эгида'",
+      "pov_character": "Рэй",
+      "present_characters": [
+        "Рэй"
+      ],
+      "summary": "Каэл расплачивается с риппердоком последними кредитами и просит информацию о том, как найти вампиров. Доктор, не желая проблем, дает ему лишь туманную наводку на место в Серых Зонах, где 'технология встречается с магией'.",
+      "scene_goal": "",
+      "scene_conflict": "",
+      "stakes": "",
+      "reveal": "",
+      "emotional_beat": "",
+      "must_reference": [],
+      "entry_requirements": [],
+      "exit_targets": [],
+      "continuity_notes": [],
+      "thread_focus": [],
+      "branch_id": "branch_03",
+      "branch_order": 3
+    },
+    {
+      "id": "branch_03_scene_004",
+      "beat_id": "beat_10",
+      "location": "Штаб-квартира корпорации 'Эгида'",
+      "pov_character": "Рэй",
+      "present_characters": [
+        "Рэй"
+      ],
+      "summary": "Пробираясь в Серые Зоны, Каэл чувствует на себе десятки враждебных взглядов. Его снаряжение 'Чистильщика' делает его ходячей мишенью. Ему приходится избегать не только патрулей 'Эгиды', но и местных банд.",
+      "scene_goal": "",
+      "scene_conflict": "",
+      "stakes": "",
+      "reveal": "",
+      "emotional_beat": "",
+      "must_reference": [],
+      "entry_requirements": [],
+      "exit_targets": [],
+      "continuity_notes": [],
+      "thread_focus": [],
+      "branch_id": "branch_03",
+      "branch_order": 4
+    },
+    {
+      "id": "branch_03_scene_005",
+      "beat_id": "beat_11",
+      "location": "Штаб-квартира корпорации 'Эгида'",
+      "pov_character": "Рэй",
+      "present_characters": [
+        "Рэй"
+      ],
+      "summary": "Следуя наводке, Каэл находит подпольный бар, где существа обоих миров — кибернетики и магии — заключают шаткие перемирия. Он пытается собрать информацию об Эларе, но его встречают молчанием и подозрением.",
+      "scene_goal": "",
+      "scene_conflict": "",
+      "stakes": "",
+      "reveal": "",
+      "emotional_beat": "",
+      "must_reference": [],
+      "entry_requirements": [],
+      "exit_targets": [],
+      "continuity_notes": [],
+      "thread_focus": [],
+      "branch_id": "branch_03",
+      "branch_order": 5
+    },
+    {
+      "id": "branch_03_scene_006",
+      "beat_id": "beat_12",
+      "location": "Штаб-квартира корпорации 'Эгида'",
+      "pov_character": "Рэй",
+      "present_characters": [
+        "Рэй"
+      ],
+      "summary": "Когда Каэл уже готов уйти ни с чем, к нему подходит таинственная фигура. Она передает, что 'Госпожа' готова его видеть, но предупреждает: любая агрессия или ложь будут стоить ему жизни. Он понимает, что это его единственный шанс.",
+      "scene_goal": "",
+      "scene_conflict": "",
+      "stakes": "",
+      "reveal": "",
+      "emotional_beat": "",
+      "must_reference": [],
+      "entry_requirements": [],
+      "exit_targets": [],
+      "continuity_notes": [],
+      "thread_focus": [],
+      "branch_id": "branch_03",
+      "branch_order": 6
+    },
+    {
+      "id": "branch_03_scene_007",
+      "beat_id": "beat_13",
+      "location": "Штаб-квартира корпорации 'Эгида'",
+      "pov_character": "Рэй",
+      "present_characters": [
+        "Рэй"
+      ],
+      "summary": "Каэл попадает в убежище Элары. Увидев его статус дезертира, она усмехается. 'Наконец-то поводок сломался. Теперь мы можем поговорить, сломанная игрушка'. Каэл полностью в ее власти.",
+      "scene_goal": "",
+      "scene_conflict": "",
+      "stakes": "",
+      "reveal": "",
+      "emotional_beat": "",
+      "must_reference": [],
+      "entry_requirements": [],
+      "exit_targets": [],
+      "continuity_notes": [],
+      "thread_focus": [],
+      "branch_id": "branch_03",
+      "branch_order": 7
+    }
+  ]
+}

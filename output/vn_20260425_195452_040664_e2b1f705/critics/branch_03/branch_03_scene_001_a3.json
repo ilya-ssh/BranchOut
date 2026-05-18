@@ -1,0 +1,65 @@
+{
+  "attempt": 3,
+  "best_score": -6.5,
+  "best_script_lines": 45,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Имя главного героя не унифицировано. В scene_contract и story_state он 'Рэй', но в тексте сцены (диалоги, мысли), next_contract и thread_agenda он назван 'Каэл'. Это необходимо исправить для сохранения когерентности."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Рэй": {
+          "location": "Неоновые улицы района 'Нижний Гелиос'",
+          "internal_state": "Действует как дезертир, испытывая отчаяние и решимость. Скрывается от 'Эгиды', ищет способ спасти Элиаса любой ценой."
+        },
+        "Элиас Грей": {
+          "location": "Неоновые улицы района 'Нижний Гелиос'",
+          "internal_state": "Состояние критическое, без сознания или в полубессознательном состоянии, умирает от магической раны."
+        }
+      },
+      "plot_threads": {
+        "thread_01": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй скрывается от патрулей 'Эгиды', что подтверждает его статус врага корпорации и продвигает тему заговора."
+        },
+        "thread_02": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй действует во враждебной среде, где его форма 'Чистильщика' является клеймом, что подчеркивает его трансформацию из солдата в бунтаря."
+        },
+        "thread_03": {
+          "touched": true,
+          "status": "active",
+          "reason": "Фантомная боль в кибер-руке и мысли о предательстве напрямую затрагивают тайну сбоя импланта и контроля со стороны 'Эгиды'."
+        }
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Сцена корректно описывает перемещение по улицам и переулкам 'Нижнего Гелиоса', что полностью соответствует заданной локации и ее аффордансам."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход из предыдущей локации ('Заброшенный готический театр') органично описан в самом начале сцены."
+    },
+    "thread_check": {
+      "missed_required": [],
+      "missed_due": [],
+      "details": "Все обязательные для продвижения нити (must_touch) были успешно затронуты в сцене."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name detected",
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  },
+  "due_threads": []
+}

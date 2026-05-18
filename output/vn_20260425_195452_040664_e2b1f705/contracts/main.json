@@ -1,0 +1,20 @@
+{
+  "patches": [
+    {
+      "scene_id": "scene_002",
+      "new_location": "Кабинет директора Валериуса",
+      "new_summary": null,
+      "new_scene_goal": null,
+      "new_scene_conflict": null,
+      "new_stakes": null,
+      "new_reveal": null,
+      "new_emotional_beat": null,
+      "new_must_reference": null,
+      "new_entry_requirements": null,
+      "new_exit_targets": null,
+      "new_continuity_notes": null,
+      "new_thread_focus": null,
+      "reason": "JSON был некорректно обрезан. Восстановлена структура объекта, добавлены недостающие поля и закрывающие скобки."
+    }
+  ]
+}

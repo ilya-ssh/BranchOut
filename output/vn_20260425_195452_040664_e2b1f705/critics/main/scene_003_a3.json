@@ -1,0 +1,87 @@
+{
+  "attempt": 3,
+  "best_score": -32.9,
+  "best_script_lines": 33,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "В данных (scene_contract, thread_agenda, plot_threads) используется имя 'Каэл', в то время как в story_state и самом скрипте используется 'Рэй'. Скрипт придерживается имени 'Рэй', что корректно.",
+      "Локация в next_contract ('Штаб-квартира корпорации 'Эгида'') противоречит его содержанию ('Отряд прочесывает... улицы') и финалу текущей сцены, которая заканчивается прибытием в 'Нижний Гелиос'. Локация следующей сцены должна быть 'Неоновые улицы района 'Нижний Гелиос'."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Рэй": {
+          "internal_state": "Внутренний конфликт между долгом солдата и сомнением в приказах обострился. Установлена связь с новичком Элиасом Греем, основанная на ответственности командира.",
+          "on_stage": true,
+          "location": "Бронетранспортер 'Чистильщиков'"
+        },
+        "Элиас Грей": {
+          "internal_state": "Испытывает страх перед миссией и магическими способностями цели, но успокоен прямым приказом командира.",
+          "on_stage": true,
+          "location": "Бронетранспортер 'Чистильщиков'"
+        },
+        "Гриз": {
+          "internal_state": "Демонстрирует уверенность ветерана и веру в корпоративные технологии.",
+          "on_stage": true,
+          "location": "Бронетранспортер 'Чистильщиков'"
+        },
+        "Водитель": {
+          "internal_state": "Выполняет свои обязанности.",
+          "on_stage": true,
+          "location": "Бронетранспортер 'Чистильщиков'"
+        },
+        "Валериус": {
+          "on_stage": false
+        }
+      },
+      "plot_threads": {
+        "thread_01": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй внутренне отметил, что 'Эгида' не предоставила доказательств вины цели, что усилило его подозрения во лжи корпорации."
+        },
+        "thread_02": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй был вынужден произнести корпоративную пропаганду, но внутренне осознавал лицемерие своих слов, что показывает его трансформацию."
+        },
+        "thread_03": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй вспомнил угрозу Валериуса о 'протоколах лояльности' и коснулся своей кибер-руки, воспринимая ее как клетку и инструмент контроля."
+        },
+        "thread_04": {
+          "touched": true,
+          "status": "active",
+          "reason": "Сцена устанавливает исходную враждебную позицию к цели (вампиру), называя ее 'диким монстром', что является отправной точкой для развития отношений."
+        }
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Сцена полностью соответствует локации 'Бронетранспортер 'Чистильщиков'."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "В начале сцены присутствует описание перемещения из штаб-квартиры в бронетранспортер, что обеспечивает плавный переход."
+    },
+    "thread_check": {
+      "missed_required": [],
+      "missed_due": [],
+      "details": "Все обязательные для касания нити ('thread_04') были затронуты в сцене."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name detected",
+      "Missing travel glue at scene start while location changed (no teleportation).",
+      "Location is not enterable / scale=object but text implies interior (walls/rooms/entering inside)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  },
+  "due_threads": []
+}

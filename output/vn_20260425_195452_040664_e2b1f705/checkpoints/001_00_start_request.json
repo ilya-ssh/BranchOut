@@ -1,0 +1,12 @@
+{
+  "generation_id": "vn_20260425_195452_040664_e2b1f705",
+  "seed": 2696784202,
+  "user_prompt": "Хочу игру с сюжетом в сеттинге киберпанка, где будет магия, и вампиры. Люди с кибер-протезами борются с мистическими существами, думая что они и есть истинное зло, но истинное зло оказывается ближе чем они думают",
+  "story_length": "long",
+  "max_branches": 4,
+  "generate_images": false,
+  "strict_name_canon": true,
+  "strict_location_gate": true,
+  "strict_thread_closure": false,
+  "story_checkpoint_every": 4
+}

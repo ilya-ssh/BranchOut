@@ -1,0 +1,143 @@
+{
+  "char_list": [
+    "Рэй",
+    "Мира Нокт",
+    "Сол Вэйн",
+    "Доктор Касс Арден",
+    "Элиас Грей",
+    "Лилит Вольт"
+  ],
+  "char_graph": {
+    "nodes": [
+      {
+        "id": "Рэй",
+        "label": "Рэй"
+      },
+      {
+        "id": "Мира Нокт",
+        "label": "Мира Нокт"
+      },
+      {
+        "id": "Сол Вэйн",
+        "label": "Сол Вэйн"
+      },
+      {
+        "id": "Доктор Касс Арден",
+        "label": "Доктор Касс Арден"
+      },
+      {
+        "id": "Элиас Грей",
+        "label": "Элиас Грей"
+      },
+      {
+        "id": "Лилит Вольт",
+        "label": "Лилит Вольт"
+      }
+    ],
+    "edges": [
+      {
+        "source": "Рэй",
+        "target": "Мира Нокт",
+        "label": "love interest",
+        "directed": true
+      },
+      {
+        "source": "Мира Нокт",
+        "target": "Рэй",
+        "label": "love interest",
+        "directed": true
+      },
+      {
+        "source": "Рэй",
+        "target": "Сол Вэйн",
+        "label": "enemies",
+        "directed": true
+      },
+      {
+        "source": "Сол Вэйн",
+        "target": "Рэй",
+        "label": "enemies",
+        "directed": true
+      },
+      {
+        "source": "Сол Вэйн",
+        "target": "Мира Нокт",
+        "label": "love interest",
+        "directed": true
+      },
+      {
+        "source": "Рэй",
+        "target": "Доктор Касс Арден",
+        "label": "friends",
+        "directed": true
+      },
+      {
+        "source": "Доктор Касс Арден",
+        "target": "Рэй",
+        "label": "friends",
+        "directed": true
+      },
+      {
+        "source": "Элиас Грей",
+        "target": "Сол Вэйн",
+        "label": "friends",
+        "directed": true
+      },
+      {
+        "source": "Лилит Вольт",
+        "target": "Сол Вэйн",
+        "label": "enemies",
+        "directed": true
+      },
+      {
+        "source": "Лилит Вольт",
+        "target": "Элиас Грей",
+        "label": "enemies",
+        "directed": true
+      },
+      {
+        "source": "Мира Нокт",
+        "target": "Элиас Грей",
+        "label": "friends",
+        "directed": true
+      },
+      {
+        "source": "Доктор Касс Арден",
+        "target": "Лилит Вольт",
+        "label": "enemies",
+        "directed": true
+      }
+    ]
+  },
+  "char_appearance": {
+    "descriptions": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "char_type": {
+    "Протагонист": [
+      "Рэй"
+    ],
+    "Искомый персонаж": [
+      "Мира Нокт"
+    ],
+    "Антагонист": [
+      "Лилит Вольт"
+    ],
+    "Даритель": [
+      "Доктор Касс Арден"
+    ],
+    "Помощник": [
+      "Элиас Грей"
+    ],
+    "Отправитель": [
+      "Сол Вэйн"
+    ],
+    "Ложный герой": []
+  }
+}

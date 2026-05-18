@@ -1,0 +1,75 @@
+{
+  "attempt": 1,
+  "best_score": -9.6,
+  "best_script_lines": 62,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "Имя протагониста не согласовано: в `story_state` и `thread_agenda` он 'Каэл', а в `scene_script` и `knowledge_context` — 'Рэй'.",
+      "Краткое содержание (`scene_contract.summary`) неточно описывает роль Рэя: он командует удаленно из ТОЦ, а не 'ведет своих людей в атаку' на месте.",
+      "`scene_contract` не содержит ключевых полей (goal, conflict, stakes, reveal), что делает его неполноценным. Сценарий реализует эти элементы, но они не были заданы в контракте."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "aegis_conspiracy.director_exposed": true,
+        "plot.aegis_civil_war_started": true
+      },
+      "characters": {
+        "Рэй": {
+          "internal_state": "Совершил открытый мятеж против 'Эгиды', разоблачив Валериуса и заключив перемирие с Эларой. Находится в осажденном Тактическом Операционном Центре.",
+          "location": "Штаб-квартира корпорации 'Эгида'",
+          "relationship.Элара": "Вынужденные союзники"
+        }
+      },
+      "plot_threads": {
+        "thread_01": {
+          "touched": true,
+          "status": "resolved",
+          "reason": "Рэй разоблачил директора Валериуса, транслировав компромат по внутренним сетям 'Эгиды'."
+        },
+        "thread_02": {
+          "touched": true,
+          "status": "resolved",
+          "reason": "Рэй совершил открытый мятеж против 'Эгиды', отменив приказ и объявив руководству войну."
+        },
+        "thread_04": {
+          "touched": true,
+          "status": "resolved",
+          "reason": "Рэй остановил бой и заключил перемирие с Эларой против общего врага — руководства 'Эгиды'."
+        }
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Сцена корректно использует локацию 'Штаб-квартира корпорации 'Эгида'', описывая перемещение по коридорам и работу в Тактическом Операционном Центре."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход из предыдущей локации ('Кабинет директора Валериуса') в новую ('Штаб-квартира корпорации 'Эгида'') показан через описание пути Рэя по коридорам и на лифте."
+    },
+    "thread_check": {
+      "missed_required": [],
+      "missed_due": [
+        "thread_01",
+        "thread_02",
+        "thread_04"
+      ],
+      "details": "Все три нити, обязательные к закрытию (`must_resolve`), были успешно разрешены в финале сцены, что соответствует требованиям `thread_agenda`."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name detected",
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  },
+  "due_threads": [
+    "thread_01",
+    "thread_02",
+    "thread_04"
+  ]
+}

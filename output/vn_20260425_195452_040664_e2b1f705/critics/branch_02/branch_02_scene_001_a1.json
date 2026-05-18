@@ -1,0 +1,30 @@
+{
+  "attempt": 1,
+  "best_score": 99.3,
+  "best_script_lines": 53,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "Формальное нарушение правила `must_resolve`: сцена не закрывает обязательные нити, хотя до конца ветки осталась одна сцена. Разрешение, однако, логично ожидать в финальной сцене, а не в этой."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "fact_sol_trauma": "Сол Вэйн потерял своего напарника Маркуса в рискованной операции, похожей на ту, что предлагает Рэй, что объясняет его изначальный отказ и осторожность."
+      },
+      "characters": {
+        "Рэй": {
+          "location": "Кабинет директора Валериуса"
+        }
+      },
+      "plot_threads": {}
+    },
+    "_must_regen_rules": false,
+    "_must_regenerate_effective": false
+  },
+  "due_threads": [
+    "thread_01",
+    "thread_02",
+    "thread_03"
+  ]
+}

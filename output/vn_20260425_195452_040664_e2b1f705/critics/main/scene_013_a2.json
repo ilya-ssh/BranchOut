@@ -1,0 +1,80 @@
+{
+  "attempt": 2,
+  "best_score": 9.5,
+  "best_script_lines": 55,
+  "best_critic": {
+    "ok": true,
+    "issues": [],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {
+        "aegis.conspiracy_exposed": true,
+        "aegis.chimera_protocol_known": true
+      },
+      "characters": {
+        "Рэй": {
+          "internal_state": "Осознал полный масштаб лжи 'Эгиды', окончательно порвал с прошлым и заключил союз с Эларой, движимый яростью и желанием отомстить.",
+          "knowledge": [
+            "Сбой импланта был прямым приказом из штаба 'Эгиды'.",
+            "Существует протокол 'Химера' для полного контроля над Чистильщиками.",
+            "'Эгида' использует Чистильщиков для устранения гражданских целей.",
+            "Элара может расшифровывать магико-технологические шифры с помощью своей крови."
+          ]
+        },
+        "Элара": {
+          "internal_state": "Убедилась в искренности Рэя и в масштабе угрозы от 'Эгиды'. Видит в Рэе не сломанную игрушку, а ценное оружие и союзника.",
+          "on_stage": true
+        }
+      },
+      "plot_threads": {
+        "thread_01": {
+          "touched": true,
+          "status": "resolved",
+          "reason": "Протокол 'Химера' и списки целей 'Эгиды' были обнаружены, полностью раскрыв заговор."
+        },
+        "thread_02": {
+          "touched": true,
+          "status": "resolved",
+          "reason": "Узнав правду, Рэй окончательно разрывает с 'Эгидой' и заключает союз с Эларой для борьбы с корпорацией."
+        },
+        "thread_03": {
+          "touched": true,
+          "status": "resolved",
+          "reason": "Расшифрованные логи подтвердили, что отключение импланта было прямым приказом из штаба 'Эгиды'."
+        },
+        "thread_04": {
+          "touched": true,
+          "status": "resolved",
+          "reason": "Элара соглашается помочь Рэю, и они формируют союз против 'Эгиды', скрепленный общей целью."
+        }
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Сцена отлично соответствует описанию локации 'Подземная библиотека'."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход через портал в начале сцены выполнен корректно и плавно."
+    },
+    "thread_check": {
+      "missed_required": [],
+      "missed_due": [],
+      "details": "Все обязательные к разрешению нити (thread_01, thread_02, thread_03) были успешно закрыты в сцене, как того требовала thread_agenda."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name detected",
+      "Missing travel glue at scene start while location changed (no teleportation)."
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  },
+  "due_threads": [
+    "thread_01",
+    "thread_02",
+    "thread_03"
+  ]
+}

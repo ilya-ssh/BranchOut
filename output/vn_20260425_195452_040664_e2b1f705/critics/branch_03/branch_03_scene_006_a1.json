@@ -1,0 +1,70 @@
+{
+  "attempt": 1,
+  "best_score": 9.2,
+  "best_script_lines": 52,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Нарушено правило `thread_agenda.must_resolve`: при `remaining_scenes <= 1` ни одна из обязательных к закрытию нитей (`thread_01`, `thread_02`, `thread_03`) не была закрыта.",
+      "В `scene_contract`, `next_contract` и `thread_agenda` используется имя 'Каэл', в то время как в `story_state` и `scene_script` используется правильное имя 'Рэй'. Это создает несогласованность.",
+      "Локация в `next_contract` ('Штаб-квартира корпорации 'Эгида'') прямо противоречит сюжету сцены и следующему шагу, где Рэй должен попасть в убежище Элары."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {
+        "thread_01": {
+          "touched": true,
+          "status": "active",
+          "reason": "Посланник подтвердил, что 'Госпожа' знает, 'кто держит другой конец' цепей Рэя, напрямую указывая на то, что она владеет информацией о заговоре 'Эгиды'."
+        },
+        "thread_02": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй вербально отрекся от 'Эгиды', назвав себя 'больше не игрушкой', и сформулировал свою цель как поиск правды, что закрепляет его внутреннюю трансформацию."
+        },
+        "thread_03": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй прямо назвал 'цифровой поводок' причиной своего поиска, а посланник подтвердил, что 'Госпожа' — единственная, кто может помочь ему 'разорвать цепи'."
+        },
+        "thread_04": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй соглашается на встречу с Эларой на ее условиях, делая первый шаг к возможному союзу."
+        }
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Сцена корректно происходит в локации 'Серые Зоны', описание соответствует."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход не требовался, так как предыдущая и текущая локации совпадают. Телепортации нет."
+    },
+    "thread_check": {
+      "missed_required": [],
+      "missed_due": [
+        "thread_01",
+        "thread_02",
+        "thread_03"
+      ],
+      "details": "Сцена не закрыла ни одну из нитей, обязательных к закрытию (`must_resolve`) до конца ветки, хотя до конца осталась всего одна сцена."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name detected"
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  },
+  "due_threads": [
+    "thread_01",
+    "thread_02",
+    "thread_03"
+  ]
+}

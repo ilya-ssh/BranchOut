@@ -1,0 +1,68 @@
+{
+  "attempt": 1,
+  "best_score": -1.5,
+  "best_script_lines": 35,
+  "best_critic": {
+    "ok": true,
+    "issues": [
+      "Имя протагониста не согласовано в предоставленных данных. В `scene_script`, `character_facts` и `story_state` он 'Рэй', тогда как в `scene_contract`, `next_contract`, `thread_agenda` и `choice_context` он 'Каэл'. Сценарий использует имя 'Рэй', что соответствует `pov_character`.",
+      "SceneContract имеет пустые ключевые поля (`scene_goal`, `scene_conflict`, `stakes`, `reveal`), что делает его неинформативным. Сценарий успешно следует более детальному `microplan` и `current_beat_facts`."
+    ],
+    "must_regenerate": false,
+    "state_updates": {
+      "world": {},
+      "characters": {
+        "Рэй": {
+          "internal_state": "Полностью убежден в предательстве 'Эгиды' и в том, что сбой импланта был преднамеренным. Стоит перед выбором: следовать протоколу и рисковать жизнью Элиаса, или стать дезертиром, чтобы спасти его."
+        },
+        "Элиас Грей": {
+          "internal_state": "Тяжело ранен, состояние критическое. Стандартная полевая медицина неэффективна."
+        }
+      },
+      "plot_threads": {
+        "thread_01": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй пришел к выводу, что 'Эгида' намеренно подставила его и Элиаса, используя сбой импланта как часть своего плана."
+        },
+        "thread_02": {
+          "touched": true,
+          "status": "active",
+          "reason": "Сцена является кульминацией пробуждения Рэя, подводя его к необратимому выбору между верностью корпорации и спасением товарища, что равносильно бунту."
+        },
+        "thread_03": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй больше не считает сбой случайностью, а видит в нем прямое доказательство внешнего контроля 'Эгиды' над своими 'цепями'."
+        },
+        "thread_04": {
+          "touched": true,
+          "status": "active",
+          "reason": "Слова Элары о 'цепях' стали для Рэя ключом к пониманию ситуации, превратив ее из врага в источник опасной правды."
+        }
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Сцена происходит в 'Заброшенном готическом театре', что полностью соответствует контексту и описаниям в тексте."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход не требуется, так как действие продолжается в той же локации, что и в предыдущей сцене."
+    },
+    "thread_check": {
+      "missed_required": [],
+      "missed_due": [],
+      "details": "Все обязательные для продвижения нити (`must_touch`) были успешно затронуты в сцене."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name detected"
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  },
+  "due_threads": []
+}

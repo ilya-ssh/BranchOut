@@ -1,0 +1,53 @@
+{
+  "attempt": 3,
+  "best_score": -11.0,
+  "best_script_lines": 30,
+  "best_critic": {
+    "ok": false,
+    "issues": [
+      "Сценарий полностью игнорирует содержание `scene_contract`. Контракт предписывал сцену, где Рэй расплачивается с риппердоком и получает наводку.",
+      "Вместо этого, сгенерированный сценарий соответствует содержанию `next_contract` (прибытие в Серые Зоны и столкновение с бандой).",
+      "Наблюдается логическое противоречие: `recent_events` и `story_state` (credits: 0) указывают, что сцена с риппердоком уже произошла в прошлом, в то время как `scene_contract` требует её показать сейчас. Это указывает на ошибку в последовательности сцен.",
+      "Имя персонажа в `scene_contract` ('Каэл') не соответствует имени в `story_state` и `scene_script` ('Рэй')."
+    ],
+    "must_regenerate": true,
+    "state_updates": {
+      "world": {},
+      "characters": {},
+      "plot_threads": {
+        "thread_01": {
+          "touched": true,
+          "status": "active",
+          "reason": "Рэй приходит к выводу, что 'Эгида' намеренно загнала его на враждебную территорию, чтобы он погиб от рук местных."
+        },
+        "thread_03": {
+          "touched": true,
+          "status": "active",
+          "reason": "Нападение бандитов, нацеленных на его кибер-руку, заставляет Рэя снова думать о 'цифровом поводке' как о смертельной уязвимости."
+        }
+      }
+    },
+    "location_check": {
+      "mismatch": false,
+      "recommended_action": "none",
+      "suggested_location": null,
+      "details": "Описание локации 'Серые Зоны' соответствует предоставленной информации."
+    },
+    "transition_check": {
+      "teleport": false,
+      "needs_travel_glue": false,
+      "details": "Переход из предыдущей локации в 'Серые Зоны' описан в начале сцены, телепортации нет."
+    },
+    "thread_check": {
+      "missed_required": [],
+      "missed_due": [],
+      "details": "Несмотря на то, что сцена не соответствует контракту, она корректно затрагивает обязательные для продвижения нити `thread_01` и `thread_03`."
+    },
+    "_hard_issues": [
+      "Non-canonical speaker name detected"
+    ],
+    "_must_regen_rules": true,
+    "_must_regenerate_effective": true
+  },
+  "due_threads": []
+}
